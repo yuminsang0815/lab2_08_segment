@@ -1,0 +1,10 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab2_08_segment_scan\src -I C:\Users\a2391\lab2_08_segment_scan\sim-s tb_segment_scan8 -o C:\Users\a2391\lab2_08_segment_scan\build\sim\run-51343a778eab4d2794ab2a038dcf7b98\sim.vvp C:\Users\a2391\lab2_08_segment_scan\src\segment_scan8.v C:\Users\a2391\lab2_08_segment_scan\src\input_frontend.v C:\Users\a2391\lab2_08_segment_scan\src\lab2_segment_scan.v C:\Users\a2391\lab2_08_segment_scan\sim\tb_segment_scan8.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab2_08_segment_scan\build\sim\run-51343a778eab4d2794ab2a038dcf7b98\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS segment_scan8 checks=194
+C:\Users\a2391\lab2_08_segment_scan\sim\tb_segment_scan8.sv:22: $finish called at 1306000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab2_08_segment_scan\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, pressany key to close it. 

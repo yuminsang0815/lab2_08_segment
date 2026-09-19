@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+LAB2_PASS segment_scan8 checks=194
+$finish called at time : 1306 ns : File "C:/Users/a2391/lab2_08_segment_scan/sim/tb_segment_scan8.sv" Line 22
